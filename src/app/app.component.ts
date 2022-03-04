@@ -19,9 +19,11 @@ export class AppComponent {
     { price: 60 },
     { price: 70 },
   ];
+  propsTest="container"
   value = 11;
   show = true;
   color = 'blue';
+  card="card"
   showCarListHandler = () => {
     alert('function worked');
   };
